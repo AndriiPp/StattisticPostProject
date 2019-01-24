@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+struct Human {
+    
+    let name: String
+    let image: String
+    
+    static var humans: [[Human]] = [[], [], [], [], [], []]
+}
